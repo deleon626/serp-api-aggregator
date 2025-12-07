@@ -1,0 +1,92 @@
+# Claude Code local settings and session data
+.claude/
+.claude.local.md
+.claude/data/
+.claude/task/
+
+# Python virtual environment
+.venv/
+venv/
+env/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test results and artifacts
+tests/.claude/
+tests/results/
+test_results/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# API test data and outputs
+results_*.json
+test_*.json
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+secrets.json
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+.windows-build-tools/
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# Node modules (if using Node.js backend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Cache and temporary data
+.cache/
+*.cache
+.tmp/
