@@ -132,11 +132,12 @@ async def fetch_all_pages(
     max_pages: int,
     concurrency: int,
     progress_callback: Optional[callable] = None,
-) -> list[dict]:
+) -> dict:
     """
     Fetch all pages for a query concurrently.
 
     Stops after 3 consecutive empty pages.
+    Returns complete Bright Data response structure with deduplicated organic results.
 
     Args:
         session: aiohttp client session
@@ -146,10 +147,44 @@ async def fetch_all_pages(
         progress_callback: Optional callback(page, total, results_count)
 
     Returns:
-        list: All organic results with page metadata
+        dict: Complete response matching Bright Data schema with dedup metadata
+        {
+            "url": str,
+            "keyword": None,
+            "general": {...},
+            "related": [...],
+            "pagination": [...],
+            "organic": [...],  # deduplicated with aggregation metadata
+            "people_also_ask": [...],
+            "navigation": [...],
+            "language": None,
+            "country": None,
+            "page_html": None,
+            "aio_text": None
+        }
     """
     semaphore = asyncio.Semaphore(concurrency)
-    all_results = []
+
+    # Initialize result structure matching Bright Data schema
+    query_result = {
+        "url": None,
+        "keyword": None,
+        "general": {},
+        "related": [],
+        "pagination": [],
+        "organic": [],
+        "people_also_ask": [],
+        "navigation": [],
+        "language": None,
+        "country": None,
+        "page_html": None,
+        "aio_text": None,
+    }
+
+    # Track organic results for deduplication
+    organic_by_url: dict[str, dict] = {}
+    pagination_seen: set[str] = set()
+    first_response_captured = False
 
     # Create tasks for all pages
     tasks = [
@@ -159,7 +194,6 @@ async def fetch_all_pages(
 
     # Process as they complete
     consecutive_empty = 0
-    pages_with_results = {}
 
     for coro in asyncio.as_completed(tasks):
         page, response = await coro
@@ -168,41 +202,94 @@ async def fetch_all_pages(
             print(f"  Page {page}: ERROR - {response['error']}", file=sys.stderr)
             consecutive_empty += 1
         else:
+            # Capture metadata from first successful response
+            if not first_response_captured:
+                first_response_captured = True
+                query_result["url"] = response.get("url")
+                query_result["keyword"] = response.get("keyword")
+                query_result["related"] = response.get("related", [])
+                query_result["people_also_ask"] = response.get("people_also_ask", [])
+                query_result["navigation"] = response.get("navigation", [])
+                query_result["language"] = response.get("language")
+                query_result["country"] = response.get("country")
+                query_result["aio_text"] = response.get("aio_text")
+
+                # Capture general metadata and ensure query is set
+                general = response.get("general", {})
+                if not general.get("query"):
+                    general["query"] = query
+                query_result["general"] = general
+
+            # Collect unique pagination links from all pages
+            for pag in response.get("pagination", []):
+                # Handle both dict and string formats
+                if isinstance(pag, dict):
+                    pag_key = pag.get("page", "")
+                    if pag_key and pag_key not in pagination_seen:
+                        pagination_seen.add(pag_key)
+                        query_result["pagination"].append(pag)
+                elif isinstance(pag, str) and pag not in pagination_seen:
+                    pagination_seen.add(pag)
+                    query_result["pagination"].append({"link": pag, "page": str(len(pagination_seen)), "page_html": None})
+
+            # Aggregate organic results with deduplication
             organic = response.get("organic", [])
-            pages_with_results[page] = len(organic)
 
             if organic:
                 consecutive_empty = 0
-                for i, result in enumerate(organic):
-                    all_results.append({
-                        "query": query,
-                        "page": page,
-                        "position": i + 1,
-                        "global_rank": result.get("global_rank", (page - 1) * 10 + i + 1),
-                        "url": result.get("link", ""),
-                        "domain": extract_domain(result.get("link", "")),
-                        "title": result.get("title", ""),
-                        "description": result.get("description", ""),
-                        "source": result.get("source", ""),
-                        "display_link": result.get("display_link", ""),
-                        "extensions": result.get("extensions", []),
-                    })
+                for result in organic:
+                    url = result.get("link", "")
+                    if not url:
+                        continue
+
+                    rank = result.get("rank", 0)
+
+                    if url not in organic_by_url:
+                        # First occurrence - store full result
+                        organic_by_url[url] = {
+                            "link": url,
+                            "rank": rank,
+                            "title": result.get("title", ""),
+                            "description": result.get("description"),
+                            "url": result.get("url", ""),
+                            "positions": [rank],
+                            "pages": [page],
+                        }
+                    else:
+                        # Already seen - track position and page
+                        organic_by_url[url]["positions"].append(rank)
+                        organic_by_url[url]["pages"].append(page)
             else:
                 consecutive_empty += 1
 
         if progress_callback:
-            progress_callback(page, max_pages, len(organic) if "error" not in response else -1)
+            count = len(response.get("organic", [])) if "error" not in response else -1
+            progress_callback(page, max_pages, count)
 
         # Early termination after 3 consecutive empty pages
-        # Only check after we have enough sequential pages
         if consecutive_empty >= 3:
-            # Cancel remaining tasks
             for task in tasks:
                 if not task.done():
                     task.cancel()
             break
 
-    # Sort results by page and position
-    all_results.sort(key=lambda x: (x["page"], x["position"]))
+    # Build final organic array with deduplication metadata
+    for url, data in organic_by_url.items():
+        positions = data.pop("positions")
+        pages = data.pop("pages")
 
-    return all_results
+        query_result["organic"].append({
+            **data,
+            "best_position": min(positions),
+            "avg_position": round(sum(positions) / len(positions), 2),
+            "frequency": len(positions),
+            "pages_seen": sorted(set(pages)),
+        })
+
+    # Sort organic by best_position
+    query_result["organic"].sort(key=lambda x: x["best_position"])
+
+    # Sort pagination by page number
+    query_result["pagination"].sort(key=lambda x: int(x.get("page", "0")))
+
+    return query_result

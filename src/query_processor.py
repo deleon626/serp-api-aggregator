@@ -2,7 +2,23 @@
 """
 SERP Query Processor - Fetch Google SERP results for multiple queries.
 
-Outputs NDJSON (one result per line) to stdout for piping to deduplicator.
+Outputs NDJSON (one query result per line) to stdout for piping to deduplicator.
+
+Output format matches Bright Data schema with deduplication metadata:
+{
+    "url": "...",
+    "keyword": null,
+    "general": {...},
+    "related": [...],
+    "pagination": [...],
+    "organic": [...],  # deduplicated with best_position, avg_position, frequency, pages_seen
+    "people_also_ask": [...],
+    "navigation": [...],
+    "language": null,
+    "country": null,
+    "page_html": null,
+    "aio_text": null
+}
 
 Usage:
     # From stdin
@@ -38,15 +54,15 @@ async def process_query(
     total_queries: int,
     max_pages: int,
     concurrency: int,
-) -> list[dict]:
-    """Process a single query and return all results."""
+) -> dict:
+    """Process a single query and return complete result structure."""
     log(f"[{query_num}/{total_queries}] Query: \"{query}\" - Fetching up to {max_pages} pages...")
 
     def progress_callback(page, total, count):
         status = f"{count} results" if count >= 0 else "error"
         log(f"  Page {page}/{total}: {status}")
 
-    results = await fetch_all_pages(
+    result = await fetch_all_pages(
         session=session,
         query=query,
         max_pages=max_pages,
@@ -54,8 +70,12 @@ async def process_query(
         progress_callback=None,  # Disable per-page progress for cleaner output
     )
 
-    log(f"[{query_num}/{total_queries}] Query: \"{query}\" - Done: {len(results)} results")
-    return results
+    organic_count = len(result.get("organic", []))
+    related_count = len(result.get("related", []))
+    paa_count = len(result.get("people_also_ask", []))
+
+    log(f"[{query_num}/{total_queries}] Query: \"{query}\" - Done: {organic_count} organic, {related_count} related, {paa_count} PAA")
+    return result
 
 
 async def main(queries: list[str], max_pages: int, concurrency: int) -> None:
@@ -69,7 +89,7 @@ async def main(queries: list[str], max_pages: int, concurrency: int) -> None:
     log(f"Timestamp: {datetime.now().isoformat()}")
     log(f"{'='*60}\n")
 
-    total_results = 0
+    total_organic = 0
 
     async with aiohttp.ClientSession() as session:
         for i, query in enumerate(queries, 1):
@@ -77,7 +97,7 @@ async def main(queries: list[str], max_pages: int, concurrency: int) -> None:
             if not query:
                 continue
 
-            results = await process_query(
+            result = await process_query(
                 session=session,
                 query=query,
                 query_num=i,
@@ -86,18 +106,17 @@ async def main(queries: list[str], max_pages: int, concurrency: int) -> None:
                 concurrency=concurrency,
             )
 
-            # Output each result as NDJSON line
-            for result in results:
-                print(json.dumps(result, ensure_ascii=False))
+            # Output entire query result as single NDJSON line
+            print(json.dumps(result, ensure_ascii=False))
 
-            total_results += len(results)
+            total_organic += len(result.get("organic", []))
 
             # Brief pause between queries to avoid overwhelming the API
             if i < len(queries):
                 await asyncio.sleep(1)
 
     log(f"\n{'='*60}")
-    log(f"COMPLETE: {total_results} total results from {len(queries)} queries")
+    log(f"COMPLETE: {total_organic} total organic results from {len(queries)} queries")
     log(f"{'='*60}")
 
 
