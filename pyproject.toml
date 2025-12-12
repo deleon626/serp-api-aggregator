@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "serp-aggregator"
-version = "0.2.0"
+version = "0.2.1"
 description = "Async Python library for SERP data aggregation via Bright Data API"
 readme = "src/README.md"
 license = "MIT"
