@@ -90,3 +90,7 @@ yarn-error.log
 .cache/
 *.cache
 .tmp/
+
+# Archive directories
+.archive/
+src/.archive/

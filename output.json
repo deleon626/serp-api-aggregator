@@ -1,0 +1,2392 @@
+{
+  "url": null,
+  "keyword": null,
+  "general": {
+    "search_engine": "google",
+    "query": "python tutorial",
+    "language": "en",
+    "mobile": false,
+    "basic_view": false,
+    "search_type": "text",
+    "page_title": "python tutorial - Google Search",
+    "timestamp": "2025-12-08T11:29:49.754Z"
+  },
+  "related": [
+    {
+      "text": "Python tutorial for beginners",
+      "link": "https://www.google.com/search?sca_esv=015d815b1709dabd&hl=en&q=Python+tutorial+for+beginners&sa=X&ved=2ahUKEwijxqvn8a2RAxUukmoFHQzFLgk4FBDVAnoECCoQAQ",
+      "rank": 1,
+      "global_rank": 11
+    },
+    {
+      "text": "Python tutorial PDF",
+      "link": "https://www.google.com/search?sca_esv=015d815b1709dabd&hl=en&q=Python+tutorial+PDF&sa=X&ved=2ahUKEwijxqvn8a2RAxUukmoFHQzFLgk4FBDVAnoECDAQAQ",
+      "rank": 2,
+      "global_rank": 12
+    },
+    {
+      "text": "Python book",
+      "link": "https://www.google.com/search?sca_esv=015d815b1709dabd&hl=en&q=Python+book&sa=X&ved=2ahUKEwijxqvn8a2RAxUukmoFHQzFLgk4FBDVAnoECC8QAQ",
+      "rank": 3,
+      "global_rank": 13
+    },
+    {
+      "text": "Python Tutorial video",
+      "link": "https://www.google.com/search?sca_esv=015d815b1709dabd&hl=en&q=Python+Tutorial+video&sa=X&ved=2ahUKEwijxqvn8a2RAxUukmoFHQzFLgk4FBDVAnoECC4QAQ",
+      "rank": 4,
+      "global_rank": 14
+    },
+    {
+      "text": "Python tutorial app",
+      "link": "https://www.google.com/search?sca_esv=015d815b1709dabd&hl=en&q=Python+tutorial+app&sa=X&ved=2ahUKEwijxqvn8a2RAxUukmoFHQzFLgk4FBDVAnoECC0QAQ",
+      "rank": 5,
+      "global_rank": 15
+    },
+    {
+      "text": "Python tutorial javatpoint",
+      "link": "https://www.google.com/search?sca_esv=015d815b1709dabd&hl=en&q=Python+tutorial+javatpoint&sa=X&ved=2ahUKEwijxqvn8a2RAxUukmoFHQzFLgk4FBDVAnoECCwQAQ",
+      "rank": 6,
+      "global_rank": 16
+    },
+    {
+      "text": "Python tutorial download",
+      "link": "https://www.google.com/search?sca_esv=015d815b1709dabd&hl=en&q=Python+tutorial+download&sa=X&ved=2ahUKEwijxqvn8a2RAxUukmoFHQzFLgk4FBDVAnoECCsQAQ",
+      "rank": 7,
+      "global_rank": 17
+    },
+    {
+      "text": "Python tutorial W3Schools",
+      "link": "https://www.google.com/search?sca_esv=015d815b1709dabd&hl=en&q=Python+tutorial+W3Schools&sa=X&ved=2ahUKEwijxqvn8a2RAxUukmoFHQzFLgk4FBDVAnoECCkQAQ",
+      "rank": 8,
+      "global_rank": 18
+    }
+  ],
+  "pagination": [
+    {
+      "link": "pages",
+      "page": "1",
+      "page_html": null
+    },
+    {
+      "link": "current_page",
+      "page": "2",
+      "page_html": null
+    },
+    {
+      "link": "next_page",
+      "page": "3",
+      "page_html": null
+    },
+    {
+      "link": "next_page_start",
+      "page": "4",
+      "page_html": null
+    },
+    {
+      "link": "next_page_link",
+      "page": "5",
+      "page_html": null
+    }
+  ],
+  "organic": [
+    {
+      "link": "https://wiki.python.org/moin/BeginnersGuide/NonProgrammers",
+      "rank": 1,
+      "title": "BeginnersGuide/NonProgrammers",
+      "description": "Python for New Programmers. If you've never programmed before, the tutorials on this page are recommended for you; they don't assume that ...",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 1.0,
+      "frequency": 1,
+      "pages_seen": [
+        3
+      ]
+    },
+    {
+      "link": "https://www.udemy.com/topic/python/?srsltid=AfmBOor2HZ1M55DzznIaVq4R2tD1oXUTQqk1vmzJtx9nCmA8wOF1dDyp",
+      "rank": 1,
+      "title": "Top Python Courses Online - Updated [December 2025]",
+      "description": "Python Courses. Python is a versatile programming language known for its simplicity and readability. Learning Python boosts your ability to develop web ...",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 1.0,
+      "frequency": 1,
+      "pages_seen": [
+        7
+      ]
+    },
+    {
+      "link": "https://learn.microsoft.com/en-us/training/browse/",
+      "rank": 1,
+      "title": "Browse all training - Training",
+      "description": "Learn new skills and discover the power of Microsoft products with step-by-step guidance. Start your journey today by exploring our learning paths and ...",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 1.0,
+      "frequency": 1,
+      "pages_seen": [
+        8
+      ]
+    },
+    {
+      "link": "https://docs.python.org/3/tutorial/introduction.html",
+      "rank": 1,
+      "title": "3. An Informal Introduction to Python",
+      "description": "Comments in Python start with the hash character, # , and extend to the end of the physical line. A comment may appear at the start of a line or following ...",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 1.0,
+      "frequency": 1,
+      "pages_seen": [
+        4
+      ]
+    },
+    {
+      "link": "https://www.reddit.com/r/learnpython/comments/1ajlvog/best_python_tutorial_for_beginners_in_2024/",
+      "rank": 1,
+      "title": "Best Python tutorial for beginners in 2024? : r/learnpython",
+      "description": "This course https://www.py4e.com/lessons is one of the best courses I have ever seen on python. CS50 is also very good.See more",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 1.0,
+      "frequency": 1,
+      "pages_seen": [
+        2
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=OFrLs22MDAw",
+      "rank": 1,
+      "title": "Python Programming Tutorial #1 - Variables and Data Types",
+      "description": "Welcome to a new series on python programming. In this video I introduce the python programming language and talk about data types and ...",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 1.0,
+      "frequency": 1,
+      "pages_seen": [
+        15
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=Ebh157e3FkQ",
+      "rank": 5,
+      "title": "Beginner Python Tutorial 1 - Introduction",
+      "description": "Comments · Beginner Python Tutorial 2 - Interactive Mode · Beginner Python Programming All-in-One Tutorial Series (6 HOURS!) · Python for ...",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 3.0,
+      "frequency": 2,
+      "pages_seen": [
+        15,
+        16
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/python/python_classes.asp",
+      "rank": 1,
+      "title": "Python Classes/Objects",
+      "description": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, ...",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 5.5,
+      "frequency": 2,
+      "pages_seen": [
+        12,
+        13
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/python/python_try_except.asp",
+      "rank": 1,
+      "title": "Python Try Except",
+      "description": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, ...",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 1.0,
+      "frequency": 1,
+      "pages_seen": [
+        18
+      ]
+    },
+    {
+      "link": "https://www.w3resource.com/python/python-tutorial.php",
+      "rank": 1,
+      "title": "Python Tutorial",
+      "description": "Python Tutorial: This tutorial introduces the basic concepts and features of the Python language and system. Python tutorial version 3.2 and ...",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 2.5,
+      "frequency": 2,
+      "pages_seen": [
+        5,
+        6
+      ]
+    },
+    {
+      "link": "https://docs.python.org/3/tutorial/classes.html",
+      "rank": 5,
+      "title": "9. Classes — Python 3.14.2 documentation",
+      "description": "The Python Tutorial »; 9. Classes. |; Theme. Auto, Light, Dark. |. 9. Classes¶. Classes provide a means of bundling data and functionality together. Creating a ...",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 3.0,
+      "frequency": 2,
+      "pages_seen": [
+        6,
+        9
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=XCKWZAtKTnU",
+      "rank": 1,
+      "title": "Python Tutorial 1: Introduction to Python for Absolute Beginners",
+      "description": "Python Tutorial 1: Introduction to Python for Absolute Beginners · Comments. 684. He is the bob ross of programming. 27:26 · Go to channel ...",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 1.0,
+      "frequency": 1,
+      "pages_seen": [
+        10
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=0J0xm73hzbQ",
+      "rank": 1,
+      "title": "Python Programming Tutorial : Session 11 - Mastering Python ...",
+      "description": "Video Topic - Python Programming Tutorial : Session 11 Faculty - Prof. Sameer Velankar Watch the Video Lecture on the Topic Python ...",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 1.0,
+      "frequency": 1,
+      "pages_seen": [
+        20
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=2uCXIbkbDSE",
+      "rank": 1,
+      "title": "Python Tutorial for Beginners Part 1 | Python Programming ...",
+      "description": "Python Tutorial for Beginners Part 1 | Python Programming Tutorial | Python Basics | Python Tutorial Hello and welcome to Python training ...",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 4.5,
+      "frequency": 2,
+      "pages_seen": [
+        17,
+        19
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=Qzf56LURZyI",
+      "rank": 1,
+      "title": "Python Tutorial for Beginners - Session 7: Live Training ...",
+      "description": "In this section of Python Tutorials we will discuss about inheritance in Python. Object Oriented Programming in Python, Multi-threading in ...",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 1.0,
+      "frequency": 1,
+      "pages_seen": [
+        17
+      ]
+    },
+    {
+      "link": "https://pythonbasics.org/",
+      "rank": 1,
+      "title": "Python Tutorial: Learn Python Programming",
+      "description": "This site contains materials and exercises for the Python 3 programming language. In this course you will learn how to write code, the basics and see examples.",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 1.0,
+      "frequency": 1,
+      "pages_seen": [
+        5
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=t8pPdKYpowI",
+      "rank": 1,
+      "title": "Python Tutorial for Beginners - Learn Python in 5 Hours [FULL ...",
+      "description": "://bit.ly/43gOF3f Python Tutorial for Beginners | Full Python Course | Learn Python In this complete Python course you will learn everything ...",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 1.0,
+      "frequency": 1,
+      "pages_seen": [
+        11
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=QXeEoD0pB3E",
+      "rank": 8,
+      "title": "#0 Python for Beginners | Programming Tutorial",
+      "description": "Python is the fastest growing language. · This course of python programming include: · Basics · Syntax · Concepts. Github :- https://github.com/ ...",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 4.5,
+      "frequency": 2,
+      "pages_seen": [
+        11,
+        12
+      ]
+    },
+    {
+      "link": "https://docs.python.org/3/tutorial/index.html",
+      "rank": 1,
+      "title": "The Python Tutorial",
+      "description": "This tutorial introduces the reader informally to the basic concepts and features of the Python language and system.",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 1.0,
+      "frequency": 1,
+      "pages_seen": [
+        1
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=hQ_Bv99TSOw",
+      "rank": 1,
+      "title": "Python Tips & Tricks For Beginners | Python Programming For ...",
+      "description": "Top 10 Reasons to Learn Python | Python Programming | Python Tutorial | Python Training |Simplilearn. Simplilearn•2K views · 1:03:21. Go to ...",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 1.0,
+      "frequency": 1,
+      "pages_seen": [
+        21
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=_tS2-swQGPs",
+      "rank": 1,
+      "title": "Python Tutorial for Beginners | Complete Course of Python ...",
+      "description": "Python Tutorial for Beginners | Complete Course of Python Programming In this video by Programming for Beginners, we will learn Python using ...",
+      "url": "",
+      "best_position": 1,
+      "avg_position": 1.0,
+      "frequency": 1,
+      "pages_seen": [
+        14
+      ]
+    },
+    {
+      "link": "https://www.kaggle.com/learn/python",
+      "rank": 2,
+      "title": "Learn Python",
+      "description": "Python. Learn the most important language for data ... A quick introduction to Python syntax, variable assignment, and numbers · local_library. Tutorial.",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 2.0,
+      "frequency": 1,
+      "pages_seen": [
+        3
+      ]
+    },
+    {
+      "link": "https://www.codechef.com/learn/course/python",
+      "rank": 9,
+      "title": "Learn Python Programming",
+      "description": "Learn Python 3 programming language within a month using our practical course. Understand the basic syntax of Python using our online tutorial.",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 5.5,
+      "frequency": 2,
+      "pages_seen": [
+        3,
+        4
+      ]
+    },
+    {
+      "link": "https://www.datacamp.com/blog/how-to-learn-python-expert-guide",
+      "rank": 2,
+      "title": "How to Learn Python From Scratch in 2025: An Expert Guide",
+      "description": "This process will help you understand the syntax and structure of Python code. Our Python tutorial for beginners will take you through some of these basics.",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 2.0,
+      "frequency": 1,
+      "pages_seen": [
+        7
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=b093aqAZiPU",
+      "rank": 2,
+      "title": "Python for Beginners Tutorial",
+      "description": "In this step-by-step Python for beginner's tutorial, learn how you can get started programming in Python. In this video, I assume that you ...",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 2.0,
+      "frequency": 1,
+      "pages_seen": [
+        8
+      ]
+    },
+    {
+      "link": "https://www.codecademy.com/catalog/language/python",
+      "rank": 2,
+      "title": "Best Python Courses + Tutorials",
+      "description": "Start your coding journey with Python courses and tutorials. From basic to advanced projects, grow your Python skills at Codecademy.",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 2.0,
+      "frequency": 1,
+      "pages_seen": [
+        2
+      ]
+    },
+    {
+      "link": "https://m.youtube.com/watch?v=pcPLNu_arz8",
+      "rank": 2,
+      "title": "Python Tutorial for Beginners - Learn Python in 2 hours ...",
+      "description": "Python Tutorial for Beginners - Learn Python in 2 hours | Python Full Course for Beginners 0:00 Introduction 01:05 Introduction to Google ...",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 6.0,
+      "frequency": 2,
+      "pages_seen": [
+        14,
+        15
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=JJmcL1N2KQs",
+      "rank": 3,
+      "title": "Python Crash Course For Beginners",
+      "description": "In this crash course we will be going over Python programming basics like variables, data types and structures, functions, loops, ...",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 2.5,
+      "frequency": 2,
+      "pages_seen": [
+        15,
+        16
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=7wnove7K-ZQ",
+      "rank": 2,
+      "title": "Introduction to Programming & Python | Python Tutorial - Day #1",
+      "description": "Python Udemy Course: https://goharry.in/python Get this course at 90% Discount if you use this link Code Backup Repository: ...",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 5.0,
+      "frequency": 2,
+      "pages_seen": [
+        12,
+        13
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=3FypxfZBd0c",
+      "rank": 2,
+      "title": "Python for Beginners | Python Full Course | Python Tutorial ...",
+      "description": "Python for Beginners | Python Full Course | Python Tutorial - Beginner to Pro Level. 662 views · 3 years ago #PythonTutorial ...",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 2.67,
+      "frequency": 3,
+      "pages_seen": [
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "link": "https://www.deeplearning.ai/short-courses/ai-python-for-beginners/",
+      "rank": 2,
+      "title": "AI Python for Beginners",
+      "description": "Learn Python programming with AI assistance. Gain skills in writing, testing, and debugging code efficiently, and create real-world AI applications.",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 2.0,
+      "frequency": 1,
+      "pages_seen": [
+        6
+      ]
+    },
+    {
+      "link": "https://docs.python.org/3/tutorial/modules.html",
+      "rank": 2,
+      "title": "6. Modules — Python 3.14.2 documentation",
+      "description": "The Python Tutorial »; 6. Modules. |; Theme. Auto, Light, Dark. |. 6. Modules¶. If you quit from the Python interpreter and enter it again, the definitions you ...",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 6.0,
+      "frequency": 2,
+      "pages_seen": [
+        9,
+        10
+      ]
+    },
+    {
+      "link": "https://docs.python.org/3/library/turtle.html",
+      "rank": 8,
+      "title": "Turtle graphics — Python 3.14.2 documentation",
+      "description": "New users should start here. In this tutorial we'll explore some of the basics of turtle drawing. Starting a turtle environment¶. In a Python shell, ...",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 5.0,
+      "frequency": 2,
+      "pages_seen": [
+        10,
+        11
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=0K_eZGS5NsU",
+      "rank": 2,
+      "title": "Python for Coding Interviews - Everything you need to Know",
+      "description": "Data Structure and Algorithm Patterns for LeetCode Interviews – Tutorial ... Python Tutorials. freeCodeCamp.org · Playlist · 20:00 · Go to channel ...",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 2.0,
+      "frequency": 1,
+      "pages_seen": [
+        20
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=XsU1sjPPOVE",
+      "rank": 6,
+      "title": "Python Tutorial - Full Course For Beginners (4 Hours)",
+      "description": "This 4 hours 7 minutes and 1 second Full Course video is the combination of the following playlist. Python Tutorial Series Playlist: ...",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 4.0,
+      "frequency": 2,
+      "pages_seen": [
+        19,
+        20
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/python/python_while_loops.asp",
+      "rank": 2,
+      "title": "Python While Loops",
+      "description": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, ...",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 2.0,
+      "frequency": 1,
+      "pages_seen": [
+        17
+      ]
+    },
+    {
+      "link": "https://pythongeeks.org/learn-python-tutorial/",
+      "rank": 2,
+      "title": "Learn the Most Popular Programming Language - Python Geeks",
+      "description": "Learn Python programming with our easy-to-follow tutorials for beginners. Master the basics and advance your skills with live projects.",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 2.0,
+      "frequency": 1,
+      "pages_seen": [
+        5
+      ]
+    },
+    {
+      "link": "https://code.visualstudio.com/docs/languages/python",
+      "rank": 2,
+      "title": "Python in Visual Studio Code",
+      "description": "Install Python and the Python extension. The tutorial guides you through installing Python and using the extension. You must install a Python interpreter ...",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 2.0,
+      "frequency": 1,
+      "pages_seen": [
+        9
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/python/",
+      "rank": 2,
+      "title": "Python Tutorial",
+      "description": "Learn Python. Python is a popular programming language. Python can be used on a server to create web applications. Start learning Python now.",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 2.0,
+      "frequency": 1,
+      "pages_seen": [
+        1
+      ]
+    },
+    {
+      "link": "https://docs.python.org/3/reference/index.html",
+      "rank": 2,
+      "title": "The Python Language Reference",
+      "description": "For an informal introduction to the language, see The Python Tutorial. For C or C++ programmers, two additional manuals exist: Extending and Embedding the ...",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 2.0,
+      "frequency": 1,
+      "pages_seen": [
+        12
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=HySdn_M_OdI",
+      "rank": 2,
+      "title": "Python Tutorial for Beginners | Python programming for ...",
+      "description": "Python Tutorial for Beginners | Python programming for SMART JUNIORS!!! | 369 ProIT. 396 views · Streamed 5 years ago ...more. 369 ProIT. 1.24K.",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 2.0,
+      "frequency": 1,
+      "pages_seen": [
+        21
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=ut1EZegF70o",
+      "rank": 2,
+      "title": "Python Full Course for Beginners | Python Tutorial For ...",
+      "description": "Python Full Course for Beginners | Python Tutorial For Beginners | Python for Beginners* Liverpool John Moore University MS In Data ...",
+      "url": "",
+      "best_position": 2,
+      "avg_position": 2.0,
+      "frequency": 1,
+      "pages_seen": [
+        14
+      ]
+    },
+    {
+      "link": "https://m.youtube.com/watch?v=kqtD5dpn9C8&t=3294s",
+      "rank": 3,
+      "title": "Python for Beginners - Learn Coding with Python in 1 Hour",
+      "description": "Comments ; Python Full Course for Beginners [2025]. Programming with Mosh · 2.4M views ; Python Functions | Python Tutorial for Absolute Beginners ...",
+      "url": "",
+      "best_position": 3,
+      "avg_position": 3.0,
+      "frequency": 1,
+      "pages_seen": [
+        3
+      ]
+    },
+    {
+      "link": "https://realpython.com/python-first-steps/",
+      "rank": 3,
+      "title": "How to Use Python: Your First Steps",
+      "description": "By the end of this tutorial, you'll understand that: You can install Python on Windows, macOS, and Linux using binaries, package managers, or ...",
+      "url": "",
+      "best_position": 3,
+      "avg_position": 3.0,
+      "frequency": 1,
+      "pages_seen": [
+        7
+      ]
+    },
+    {
+      "link": "https://docs.python.org/3/tutorial/controlflow.html",
+      "rank": 3,
+      "title": "4. More Control Flow Tools — Python 3.14.2 documentation",
+      "description": "For a more detailed explanation and additional examples, you can look into PEP 636 which is written in a tutorial format. 4.8. Defining Functions¶. We can ...",
+      "url": "",
+      "best_position": 3,
+      "avg_position": 4.5,
+      "frequency": 2,
+      "pages_seen": [
+        8,
+        9
+      ]
+    },
+    {
+      "link": "https://scrimba.com/learn-python-c03",
+      "rank": 3,
+      "title": "Learn Python in this free course with interactive coding ...",
+      "description": "This 58-part tutorial will teach you Python through a mix between tutorials and interactive coding challenges.",
+      "url": "",
+      "best_position": 3,
+      "avg_position": 3.0,
+      "frequency": 1,
+      "pages_seen": [
+        4
+      ]
+    },
+    {
+      "link": "https://developers.google.com/edu/python",
+      "rank": 3,
+      "title": "Google's Python Class | Python Education",
+      "description": "Welcome to Google's Python Class -- this is a free class for people with a little bit of programming experience who want to learn Python.See more",
+      "url": "",
+      "best_position": 3,
+      "avg_position": 3.0,
+      "frequency": 1,
+      "pages_seen": [
+        2
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=m8DXAsyaMK0",
+      "rank": 3,
+      "title": "Python beginner course | Great for kids!",
+      "description": "This beginner Python tutorial is a great place to start if you have never typed any code before. We break down the early topics and build 8 ...",
+      "url": "",
+      "best_position": 3,
+      "avg_position": 3.0,
+      "frequency": 1,
+      "pages_seen": [
+        13
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=XKHEtdqhLK8",
+      "rank": 3,
+      "title": "Python Full Course for free",
+      "description": "python #tutorial #beginners Python tutorial for beginners full course Python 12 Hour Full Course for free (2024): ...",
+      "url": "",
+      "best_position": 3,
+      "avg_position": 3.0,
+      "frequency": 1,
+      "pages_seen": [
+        18
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/playlist?list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3",
+      "rank": 3,
+      "title": "Python for Beginners (Full Course) | Programming Tutorial",
+      "description": "Easy Python tutorial for beginner, learn Python Programming, learn python programming with example and syntax.",
+      "url": "",
+      "best_position": 3,
+      "avg_position": 3.0,
+      "frequency": 1,
+      "pages_seen": [
+        6
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/python/python_mysql_getstarted.asp",
+      "rank": 3,
+      "title": "Python MySQL",
+      "description": "Python needs a MySQL driver to access the MySQL database. In this tutorial we will use the driver \"MySQL Connector\".",
+      "url": "",
+      "best_position": 3,
+      "avg_position": 3.0,
+      "frequency": 1,
+      "pages_seen": [
+        16
+      ]
+    },
+    {
+      "link": "https://www.tutorialsfreak.com/python-tutorial",
+      "rank": 3,
+      "title": "Python Tutorial for Beginners",
+      "description": "In this Python programming tutorial, we have covered various aspects of the language with quick and comprehensive notes, code examples, exercises, videos, and ...",
+      "url": "",
+      "best_position": 3,
+      "avg_position": 3.0,
+      "frequency": 1,
+      "pages_seen": [
+        10
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=Pm4gsdt507Q",
+      "rank": 3,
+      "title": "Python Programming Tutorial | Step by Step",
+      "description": "Python Programming Tutorial Playlist: https://cka.collectiva.in/t/python Transform yourself from beginners to master in Python Programming ...",
+      "url": "",
+      "best_position": 3,
+      "avg_position": 3.0,
+      "frequency": 1,
+      "pages_seen": [
+        20
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+      "rank": 10,
+      "title": "Django Tutorial for Beginners – Build Powerful Backends",
+      "description": "You know basic Python. · Want to build complex web applications. · You're aiming for a back-end development career.",
+      "url": "",
+      "best_position": 3,
+      "avg_position": 6.33,
+      "frequency": 3,
+      "pages_seen": [
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "link": "https://www.digitalocean.com/community/tutorials/python-tutorial-beginners",
+      "rank": 3,
+      "title": "Python Tutorial: A Complete Beginners Guide",
+      "description": "Python is a high-level programming language that is widely used nowadays all over the world. It's very easy to use and adapt.",
+      "url": "",
+      "best_position": 3,
+      "avg_position": 3.0,
+      "frequency": 1,
+      "pages_seen": [
+        5
+      ]
+    },
+    {
+      "link": "https://www.guru99.com/python-tutorials.html",
+      "rank": 3,
+      "title": "Python Tutorial for Beginners (Free PDF)",
+      "description": "In this Python for beginners tutorial, you will learn Python installation, variables, Data structure, loops, strings, functions, file handling, Python SciPy, ...",
+      "url": "",
+      "best_position": 3,
+      "avg_position": 3.0,
+      "frequency": 1,
+      "pages_seen": [
+        9
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/python/python_reference.asp",
+      "rank": 3,
+      "title": "Python Reference",
+      "description": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, ...",
+      "url": "",
+      "best_position": 3,
+      "avg_position": 3.0,
+      "frequency": 1,
+      "pages_seen": [
+        11
+      ]
+    },
+    {
+      "link": "https://www.tutorialspoint.com/python/index.htm",
+      "rank": 3,
+      "title": "Python Tutorial",
+      "description": "This Python tutorial gives a complete understanding of Python programming language, starting from basic concepts to advanced concepts.",
+      "url": "",
+      "best_position": 3,
+      "avg_position": 3.0,
+      "frequency": 1,
+      "pages_seen": [
+        1
+      ]
+    },
+    {
+      "link": "https://docs.python.org/3/download.html",
+      "rank": 3,
+      "title": "Download — Python 3.14.2 documentation",
+      "description": "Download Python 3.14 documentation. Last updated on: Dec 06, 2025 (15:41 UTC). Download an archive containing all the documentation for this version of Python: ...",
+      "url": "",
+      "best_position": 3,
+      "avg_position": 3.0,
+      "frequency": 1,
+      "pages_seen": [
+        12
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=EXIgjIBu4EU",
+      "rank": 9,
+      "title": "Learn Pandas in 30 Minutes - Python Pandas Tutorial",
+      "description": "Learn Pandas in 30 Minutes - Python Pandas Tutorial · Comments. 80. Nice tutorial! Just want to say that `inplace` is deprecated and shouldn't ...",
+      "url": "",
+      "best_position": 3,
+      "avg_position": 6.0,
+      "frequency": 2,
+      "pages_seen": [
+        12,
+        14
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/python/python_intro.asp",
+      "rank": 4,
+      "title": "Introduction to Python",
+      "description": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, ...",
+      "url": "",
+      "best_position": 4,
+      "avg_position": 4.0,
+      "frequency": 1,
+      "pages_seen": [
+        3
+      ]
+    },
+    {
+      "link": "https://www.python.org/doc/",
+      "rank": 4,
+      "title": "Our Documentation",
+      "description": "Browse the docs online or download a copy of your own. Python's documentation, tutorials, and guides are constantly evolving. Get started here.",
+      "url": "",
+      "best_position": 4,
+      "avg_position": 4.0,
+      "frequency": 1,
+      "pages_seen": [
+        7
+      ]
+    },
+    {
+      "link": "https://www.codecademy.com/learn/learn-python",
+      "rank": 4,
+      "title": "Learn Python 2",
+      "description": "About this course. Python is a general-purpose, versatile and popular programming language. It's great as a first language because it is concise and easy to ...",
+      "url": "",
+      "best_position": 4,
+      "avg_position": 4.0,
+      "frequency": 1,
+      "pages_seen": [
+        8
+      ]
+    },
+    {
+      "link": "https://www.simplilearn.com/tutorials/python-tutorial",
+      "rank": 4,
+      "title": "A Comprehensive Python Tutorial for Beginners",
+      "description": "This comprehensive Python tutorial covers the basics and advanced topics, including attributes, object-oriented programming (OOP), scripting, threading, and ...",
+      "url": "",
+      "best_position": 4,
+      "avg_position": 4.0,
+      "frequency": 1,
+      "pages_seen": [
+        4
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU",
+      "rank": 4,
+      "title": "Python Tutorials",
+      "description": "Python Tutorials. An in-depth look at the Python programming language. Learn about Python development, tips and tricks, walkthroughs, and best practices.See more",
+      "url": "",
+      "best_position": 4,
+      "avg_position": 4.0,
+      "frequency": 1,
+      "pages_seen": [
+        2
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/python/python_for_loops.asp",
+      "rank": 4,
+      "title": "Python For Loops",
+      "description": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, ...",
+      "url": "",
+      "best_position": 4,
+      "avg_position": 4.0,
+      "frequency": 1,
+      "pages_seen": [
+        15
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=4uBbCUjJ_G8",
+      "rank": 6,
+      "title": "Python 101 Crash Course: Learn Python v3 (8 HOURS ...",
+      "description": "... python/cheatsheet #2: Python Monthly Newsletter https ... Complete Python Tutorial For Beginners 2025| Python Course in 6 hours.",
+      "url": "",
+      "best_position": 4,
+      "avg_position": 5.0,
+      "frequency": 2,
+      "pages_seen": [
+        15,
+        16
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=fWjsdhR3z3c",
+      "rank": 4,
+      "title": "Learn Python in Less than 10 Minutes for Beginners (Fast ...",
+      "description": "Go to channel. The Most Complete Tutorial on Python Dictionaries. Koolac•11K views · 16:35 · Go to channel. Python 3.14: The NEW T-strings are ...",
+      "url": "",
+      "best_position": 4,
+      "avg_position": 4.0,
+      "frequency": 1,
+      "pages_seen": [
+        13
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=DWgzHbglNIo",
+      "rank": 4,
+      "title": "#3 Python Tutorial for Beginners | Getting Started with Python",
+      "description": "Starting with operations like Addition, Subtraction, Multiplication, and Division. · We do addition, subtraction and multiplication with integer ...",
+      "url": "",
+      "best_position": 4,
+      "avg_position": 4.0,
+      "frequency": 2,
+      "pages_seen": [
+        17,
+        18
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=BNADYQSumgQ",
+      "rank": 7,
+      "title": "Python Course for Beginners | Learn Python Programming for ...",
+      "description": "This Python tutorial for beginners is a full course that will help you learn python, a popular programming language.",
+      "url": "",
+      "best_position": 4,
+      "avg_position": 7.0,
+      "frequency": 3,
+      "pages_seen": [
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "link": "https://www.reddit.com/r/learnpython/comments/df265b/i_recommend_the_official_python_tutorial_for/",
+      "rank": 4,
+      "title": "I recommend the official Python tutorial for certain learners",
+      "description": "The python on udemy teaches you the basic coding and understanding of the language for beginners level. The course fee is less at sometimes.",
+      "url": "",
+      "best_position": 4,
+      "avg_position": 7.0,
+      "frequency": 2,
+      "pages_seen": [
+        5,
+        6
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/python/matplotlib_intro.asp",
+      "rank": 4,
+      "title": "Matplotlib Tutorial",
+      "description": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, ...",
+      "url": "",
+      "best_position": 4,
+      "avg_position": 4.0,
+      "frequency": 1,
+      "pages_seen": [
+        10
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=YdOel24FIZ4",
+      "rank": 4,
+      "title": "Python Programming Tutorial: Session 17 - Mastering Python ...",
+      "description": "Video Topic - Python Programming Tutorial : Session 17 Faculty - Prof. Sameer Velankar Watch the Video Lecture on the Topic Python ...",
+      "url": "",
+      "best_position": 4,
+      "avg_position": 4.0,
+      "frequency": 1,
+      "pages_seen": [
+        20
+      ]
+    },
+    {
+      "link": "https://www.datacamp.com/",
+      "rank": 4,
+      "title": "DataCamp: Learn Data Science and AI Online",
+      "description": "Learn Data Science & AI from the comfort of your browser, at your own pace with DataCamp's video tutorials & coding challenges on R, Python, ...",
+      "url": "",
+      "best_position": 4,
+      "avg_position": 4.0,
+      "frequency": 1,
+      "pages_seen": [
+        9
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=ERCMXc8x7mc",
+      "rank": 4,
+      "title": "Python Tutorial for Beginners - Full Course (with Notes ...",
+      "description": "Complete AI/ML Job Ready Batch :https://www.apnacollege.in/course/prime-ai Batch starting from 15th Nov 2025 ...",
+      "url": "",
+      "best_position": 4,
+      "avg_position": 4.0,
+      "frequency": 1,
+      "pages_seen": [
+        11
+      ]
+    },
+    {
+      "link": "https://www.python.org/about/gettingstarted/",
+      "rank": 4,
+      "title": "Python For Beginners",
+      "description": "There is a fairly brief tutorial that gives you basic information about the language and gets you started. You can follow this by looking at the library ...",
+      "url": "",
+      "best_position": 4,
+      "avg_position": 4.0,
+      "frequency": 1,
+      "pages_seen": [
+        1
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=7fc2MTLTX2Q",
+      "rank": 4,
+      "title": "Python Basics Full Course Tutorial (3+ Hours)",
+      "description": "Python Basics Full Course Tutorial (3+ Hours) Get Ad-Free Training by becoming a member today!",
+      "url": "",
+      "best_position": 4,
+      "avg_position": 4.0,
+      "frequency": 1,
+      "pages_seen": [
+        12
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=FXKB-pz5xwI",
+      "rank": 4,
+      "title": "How to Learn Python Programming Step by Step || Basic ...",
+      "description": "Learn Python programming with this Python tutorial for beginners!",
+      "url": "",
+      "best_position": 4,
+      "avg_position": 4.0,
+      "frequency": 1,
+      "pages_seen": [
+        21
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/python/python_functions.asp",
+      "rank": 4,
+      "title": "Python Functions",
+      "description": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, ...",
+      "url": "",
+      "best_position": 4,
+      "avg_position": 4.0,
+      "frequency": 1,
+      "pages_seen": [
+        14
+      ]
+    },
+    {
+      "link": "https://www.datacamp.com/courses/intro-to-python-for-data-science",
+      "rank": 5,
+      "title": "Introduction to Python Course",
+      "description": "Requesty Tutorial: The Unified LLM Gateway With Automatic Failovers · SAM3 ... Hello Python! 50 XP · Your first Python code. 100 XP · Python as a calculator.",
+      "url": "",
+      "best_position": 5,
+      "avg_position": 5.0,
+      "frequency": 1,
+      "pages_seen": [
+        3
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=Z1Yd7upQsXY",
+      "rank": 5,
+      "title": "Python Tutorial for Absolute Beginners #1 - What Are Variables?",
+      "description": "Learn Python programming with this Python tutorial for beginners! Tips: 1. Here is the playlist of this series: https://goo.gl/eVauVX 2.",
+      "url": "",
+      "best_position": 5,
+      "avg_position": 5.0,
+      "frequency": 1,
+      "pages_seen": [
+        7
+      ]
+    },
+    {
+      "link": "https://www.tutorialspoint.com/python/python_tutorial.pdf",
+      "rank": 5,
+      "title": "Python Full Tutorial",
+      "description": "This tutorial will take you through simple and practical approaches while learning Python Programming language. Python Jobs. Today, Python is very high in ...",
+      "url": "",
+      "best_position": 5,
+      "avg_position": 5.0,
+      "frequency": 1,
+      "pages_seen": [
+        8
+      ]
+    },
+    {
+      "link": "https://www.codecademy.com/learn/learn-python-3",
+      "rank": 5,
+      "title": "Learn Python 3",
+      "description": "Develop your Python 3 skills in our comprehensive course. Start coding and build versatile applications.",
+      "url": "",
+      "best_position": 5,
+      "avg_position": 5.0,
+      "frequency": 1,
+      "pages_seen": [
+        4
+      ]
+    },
+    {
+      "link": "https://bugs.python.org/file47781/Tutorial_EDIT.pdf",
+      "rank": 5,
+      "title": "Python Tutorial",
+      "description": "Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach ...See more",
+      "url": "",
+      "best_position": 5,
+      "avg_position": 5.0,
+      "frequency": 1,
+      "pages_seen": [
+        2
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/python/python_exercises.asp",
+      "rank": 5,
+      "title": "Python Exercises",
+      "description": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, ...",
+      "url": "",
+      "best_position": 5,
+      "avg_position": 5.0,
+      "frequency": 1,
+      "pages_seen": [
+        13
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/python/python_conditions.asp",
+      "rank": 5,
+      "title": "Python If Statement",
+      "description": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, ...",
+      "url": "",
+      "best_position": 5,
+      "avg_position": 5.0,
+      "frequency": 1,
+      "pages_seen": [
+        18
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=eZKW4HwlSEY",
+      "rank": 8,
+      "title": "Python Tutorial For Beginners | Python Programming For ...",
+      "description": "Python Tutorial For Beginners | Python Programming For Beginners | Python Training | Simplilearn · Comments.",
+      "url": "",
+      "best_position": 5,
+      "avg_position": 6.5,
+      "frequency": 2,
+      "pages_seen": [
+        18,
+        19
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=fr1f84rg4Nw",
+      "rank": 5,
+      "title": "15 Minute Python Tutorial For Beginners In Hindi (Full ...",
+      "description": "15 Minute Python Tutorial For Beginners In Hindi (Full & Complete Python Crash Course). 1.8M views · 7 years ago ...more ...",
+      "url": "",
+      "best_position": 5,
+      "avg_position": 5.0,
+      "frequency": 1,
+      "pages_seen": [
+        16
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=7eh4d6sabA0",
+      "rank": 5,
+      "title": "Python Machine Learning Tutorial (Data Science)",
+      "description": "Build your first AI project with Python! This beginner-friendly machine learning tutorial uses real-world data. ❤️ Join this channel to get ...",
+      "url": "",
+      "best_position": 5,
+      "avg_position": 5.0,
+      "frequency": 1,
+      "pages_seen": [
+        10
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+      "rank": 7,
+      "title": "Learn Python - Full Course for Beginners [Tutorial]",
+      "description": "This course will give you a full introduction into all of the core concepts in python. Follow along with the videos and you'll be a python ...",
+      "url": "",
+      "best_position": 5,
+      "avg_position": 6.0,
+      "frequency": 2,
+      "pages_seen": [
+        9,
+        10
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=tR1FGiyFoXY",
+      "rank": 5,
+      "title": "Master Python in 3 Hours: The Ultimate Coding Tutorial for ...",
+      "description": "Ready to become a Python pro in just 3 hours? Dive into the most comprehensive Python coding tutorial on the web and level up your ...",
+      "url": "",
+      "best_position": 5,
+      "avg_position": 5.0,
+      "frequency": 1,
+      "pages_seen": [
+        20
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=rKaN8JC70Iw",
+      "rank": 5,
+      "title": "Python Tutorial Part - 1 | Python Tutorial For Beginners Part - 1 ...",
+      "description": "Python Tutorial Part - 1 | Python Tutorial For Beginners Part - 1 | Python Programming | Simplilearn · Comments. 94. Add a comment... 37:37. Go ...",
+      "url": "",
+      "best_position": 5,
+      "avg_position": 5.0,
+      "frequency": 1,
+      "pages_seen": [
+        17
+      ]
+    },
+    {
+      "link": "https://www.coursera.org/courses?query=python",
+      "rank": 5,
+      "title": "Best Python Courses & Certificates [2026]",
+      "description": "Python courses can help you learn programming fundamentals, data analysis, web development, and automation techniques. Compare course options to find what ...",
+      "url": "",
+      "best_position": 5,
+      "avg_position": 5.0,
+      "frequency": 1,
+      "pages_seen": [
+        5
+      ]
+    },
+    {
+      "link": "https://docs.python.org/3/tutorial/venv.html",
+      "rank": 5,
+      "title": "12. Virtual Environments and Packages",
+      "description": "This will create the tutorial-env directory if it doesn't exist, and also create directories inside it containing a copy of the Python interpreter and various ...",
+      "url": "",
+      "best_position": 5,
+      "avg_position": 5.0,
+      "frequency": 1,
+      "pages_seen": [
+        11
+      ]
+    },
+    {
+      "link": "https://www.pythontutorial.net/",
+      "rank": 5,
+      "title": "Python Tutorial",
+      "description": "This Python tutorial is for you. The tutorial will take you through the understanding of the Python programming language, help you deeply learn the concepts.",
+      "url": "",
+      "best_position": 5,
+      "avg_position": 5.0,
+      "frequency": 1,
+      "pages_seen": [
+        1
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=6i3e-j3wSf0",
+      "rank": 5,
+      "title": "Python Tutorial for Beginners with VS Code",
+      "description": "Just started a Python course for beginners (Harvardx) and in the first class the teacher just said: open VSC and type this code.",
+      "url": "",
+      "best_position": 5,
+      "avg_position": 5.0,
+      "frequency": 1,
+      "pages_seen": [
+        12
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=fFSxmLXLFuE",
+      "rank": 5,
+      "title": "Python Tutorial FULL Easy Learning from Zero to Hero 11 ...",
+      "description": "Here is the latest Microsoft virtual academy for Python, more than 11 hours intensive Python learning. Start with Python! Begin with Python!",
+      "url": "",
+      "best_position": 5,
+      "avg_position": 5.0,
+      "frequency": 1,
+      "pages_seen": [
+        21
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=WEm3EUdicDg",
+      "rank": 5,
+      "title": "Python Tutorial in 30 Minutes (Crash Course for Absolute ...",
+      "description": "https://thenewboston.net/",
+      "url": "",
+      "best_position": 5,
+      "avg_position": 5.0,
+      "frequency": 1,
+      "pages_seen": [
+        14
+      ]
+    },
+    {
+      "link": "https://pythontutor.com/",
+      "rank": 6,
+      "title": "Python Tutor - Python Online Compiler with Visual AI Help",
+      "description": "Python Tutor helps you do programming homework assignments in Python, Java, C, C++, and JavaScript. It contains a step-by-step visual debugger and AI tutor.",
+      "url": "",
+      "best_position": 6,
+      "avg_position": 6.0,
+      "frequency": 1,
+      "pages_seen": [
+        3
+      ]
+    },
+    {
+      "link": "https://www.kaggle.com/learn",
+      "rank": 6,
+      "title": "Learn Python, Data Viz, Pandas & More | Tutorials",
+      "description": "We pare down complex topics to their key practical components, so you gain usable skills in a few hours (instead of weeks or months).",
+      "url": "",
+      "best_position": 6,
+      "avg_position": 6.0,
+      "frequency": 1,
+      "pages_seen": [
+        7
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+      "rank": 6,
+      "title": "Python Machine Learning",
+      "description": "Where To Start? In this tutorial we will go back to mathematics and study statistics, and how to calculate important numbers based on data sets. We will also ...",
+      "url": "",
+      "best_position": 6,
+      "avg_position": 6.0,
+      "frequency": 1,
+      "pages_seen": [
+        8
+      ]
+    },
+    {
+      "link": "https://www.wscubetech.com/resources/python",
+      "rank": 6,
+      "title": "Python Tutorial | Learn Python Programming Language",
+      "description": "This tutorial covers various basic and advanced topics, such as Python keywords, comments, indentation, operators, data types, literals, arrays, conditional ...",
+      "url": "",
+      "best_position": 6,
+      "avg_position": 6.0,
+      "frequency": 1,
+      "pages_seen": [
+        4
+      ]
+    },
+    {
+      "link": "https://mode.com/python-tutorial/",
+      "rank": 6,
+      "title": "Python Tutorial",
+      "description": "Welcome to the Python Tutorial. Learn Python for business analysis using real-world data. No coding experience necessary.See more",
+      "url": "",
+      "best_position": 6,
+      "avg_position": 6.0,
+      "frequency": 1,
+      "pages_seen": [
+        2
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=Sb8JDqeq74s",
+      "rank": 10,
+      "title": "Python Tutorial | Python Tutorial For Beginners - Full Course ...",
+      "description": "Python Tutorial | Python Tutorial For Beginners - Full Course | Python Programming | Simplilearn · Comments. 232. Its been just 3 hrs since the ...",
+      "url": "",
+      "best_position": 6,
+      "avg_position": 8.0,
+      "frequency": 2,
+      "pages_seen": [
+        15,
+        16
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=eXBD2bB9-RA",
+      "rank": 6,
+      "title": "Introduction to Python 3 Programming Tutorial",
+      "description": "Downloading and installing Python 3, along with an editor and writing our very first, though super basic, program!",
+      "url": "",
+      "best_position": 6,
+      "avg_position": 6.0,
+      "frequency": 1,
+      "pages_seen": [
+        13
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=zrr8Hf-urYY",
+      "rank": 6,
+      "title": "Python Tutorial for Beginners | Python Programming | Learn ...",
+      "description": "Python Tutorial for Beginners | Python Programming | Learn Python | Great Learning · Comments. 91. Add a comment... 1:31:50. Go to channel · ...",
+      "url": "",
+      "best_position": 6,
+      "avg_position": 6.0,
+      "frequency": 1,
+      "pages_seen": [
+        18
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=H2EJuAcrZYU",
+      "rank": 6,
+      "title": "Python Full Course for Beginners | Complete All-in-One ...",
+      "description": "Web Dev Roadmap for Beginners (Free!): https://bit.ly/DaveGrayWebDevRoadmap This Python Full Course for Beginners is an all-in-one beginner ...",
+      "url": "",
+      "best_position": 6,
+      "avg_position": 6.0,
+      "frequency": 1,
+      "pages_seen": [
+        6
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=ehD6tdxmjDU",
+      "rank": 9,
+      "title": "I Learned Python By Building These Projects - Tutorial for ...",
+      "description": "I Learned Python By Building These Projects - Tutorial for Beginners. 68K views · 10 months ago #Python #PythonTutorial #PythonChallenges ...",
+      "url": "",
+      "best_position": 6,
+      "avg_position": 7.5,
+      "frequency": 2,
+      "pages_seen": [
+        16,
+        17
+      ]
+    },
+    {
+      "link": "https://docs.python.org/3/tutorial/datastructures.html",
+      "rank": 6,
+      "title": "5. Data Structures — Python 3.14.2 documentation",
+      "description": "The Python Tutorial »; 5. Data Structures. |; Theme. Auto, Light, Dark. |. 5. Data Structures¶. This chapter describes some things you've learned about already ...",
+      "url": "",
+      "best_position": 6,
+      "avg_position": 6.0,
+      "frequency": 1,
+      "pages_seen": [
+        10
+      ]
+    },
+    {
+      "link": "https://matplotlib.org/stable/tutorials/index.html",
+      "rank": 6,
+      "title": "Tutorials — Matplotlib 3.10.7 documentation",
+      "description": "Artist tutorial. Artist tutorial. Download all examples in Python source code: tutorials_python.zip · Download all examples in Jupyter notebooks ...",
+      "url": "",
+      "best_position": 6,
+      "avg_position": 6.0,
+      "frequency": 1,
+      "pages_seen": [
+        5
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=Sg4GMVMdOPo",
+      "rank": 6,
+      "title": "Start coding with PYTHON in 5 minutes!",
+      "description": "python #pythontutorial #pythoncourse This is the introductory video to my new FREE 12 Hour Python course. There is an extended playlist with ...",
+      "url": "",
+      "best_position": 6,
+      "avg_position": 6.0,
+      "frequency": 1,
+      "pages_seen": [
+        11
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/playlist?list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg",
+      "rank": 6,
+      "title": "Python for Beginners (Full Course)",
+      "description": "Introduction to Programming & Python | Python Tutorial - Day #1 · Some Amazing Python Programs - The Power of Python | Python Tutorial - Day #2 · Modules and Pip ...",
+      "url": "",
+      "best_position": 6,
+      "avg_position": 6.0,
+      "frequency": 1,
+      "pages_seen": [
+        1
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/python/numpy/default.asp",
+      "rank": 6,
+      "title": "NumPy Tutorial",
+      "description": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, ...",
+      "url": "",
+      "best_position": 6,
+      "avg_position": 6.0,
+      "frequency": 1,
+      "pages_seen": [
+        12
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=ZKelEQPIHNQ",
+      "rank": 6,
+      "title": "Python Tutorial for Beginners Full Course (with Notes & ...",
+      "description": "... tutorial helps you to learn Python free with Python notes and Python tutorial PDF. These Python tutorials will help you learn the basics of",
+      "url": "",
+      "best_position": 6,
+      "avg_position": 6.0,
+      "frequency": 1,
+      "pages_seen": [
+        21
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=2uvysYbKdjM",
+      "rank": 6,
+      "title": "Complete Python Pandas Data Science Tutorial! (2025 ...",
+      "description": "Setting up your environment · Introduction to DataFrames · Loading data from CSV, Excel, Parquet, and more · Accessing and manipulating data ...",
+      "url": "",
+      "best_position": 6,
+      "avg_position": 6.0,
+      "frequency": 1,
+      "pages_seen": [
+        14
+      ]
+    },
+    {
+      "link": "https://pynative.com/python/",
+      "rank": 7,
+      "title": "Python Tutorials",
+      "description": "This page features all of our Python tutorials, starting from the basic level to the advanced level. Each tutorial contains a quiz and exercise.",
+      "url": "",
+      "best_position": 7,
+      "avg_position": 7.0,
+      "frequency": 1,
+      "pages_seen": [
+        3
+      ]
+    },
+    {
+      "link": "https://www.python.org/",
+      "rank": 7,
+      "title": "Welcome to Python.org",
+      "description": "Documentation for Python's standard library, along with tutorials and guides, are available online. docs.python.org. Jobs. Looking for work or have a Python ...",
+      "url": "",
+      "best_position": 7,
+      "avg_position": 7.0,
+      "frequency": 1,
+      "pages_seen": [
+        7
+      ]
+    },
+    {
+      "link": "https://seaborn.pydata.org/tutorial.html",
+      "rank": 7,
+      "title": "User guide and tutorial — seaborn 0.13.2 documentation",
+      "description": "User guide and tutorial# · API Overview# · Objects interface# · Plotting functions# · Statistical operations# · Multi-plot grids# · Figure aesthetics#.",
+      "url": "",
+      "best_position": 7,
+      "avg_position": 7.0,
+      "frequency": 1,
+      "pages_seen": [
+        8
+      ]
+    },
+    {
+      "link": "https://learn.microsoft.com/en-us/shows/intro-to-python-development/python-for-beginners-1-of-44-programming-with-python",
+      "rank": 7,
+      "title": "Python for Beginners [1 of 44] Programming with Python",
+      "description": "Over the course of a set of videos we're going to show you the ropes of Python development. Let's start by chatting through what we're going to cover.",
+      "url": "",
+      "best_position": 7,
+      "avg_position": 7.0,
+      "frequency": 1,
+      "pages_seen": [
+        4
+      ]
+    },
+    {
+      "link": "https://www.geeksforgeeks.org/python/python-programming-language-tutorial/",
+      "rank": 7,
+      "title": "Python Tutorial",
+      "description": "In this section, we'll cover the basics of Python programming, including installing Python, writing first program, understanding comments and working with ...See more",
+      "url": "",
+      "best_position": 7,
+      "avg_position": 7.0,
+      "frequency": 1,
+      "pages_seen": [
+        2
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=EyEqWFvLDT8",
+      "rank": 7,
+      "title": "Python Tutorial For Beginners (With Notes)",
+      "description": "... Python Tutorials For Absolute Beginners: In this Python programming tutorial, we will see complete Python from scratch. This Python course ...",
+      "url": "",
+      "best_position": 7,
+      "avg_position": 8.5,
+      "frequency": 2,
+      "pages_seen": [
+        15,
+        16
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=gfDE2a7MKjA",
+      "rank": 7,
+      "title": "Python Tutorial For Beginners In Hindi (With Notes)",
+      "description": "Python Udemy Course: https://goharry.in/python Get this course at 90% Discount if you use this link Learn Python One Video in Hindi: This ...",
+      "url": "",
+      "best_position": 7,
+      "avg_position": 7.0,
+      "frequency": 1,
+      "pages_seen": [
+        13
+      ]
+    },
+    {
+      "link": "https://pandas.pydata.org/docs/user_guide/10min.html",
+      "rank": 7,
+      "title": "10 minutes to pandas — pandas 2.3.3 documentation",
+      "description": "Pandas provides two types of classes for handling data: Series : a one-dimensional labeled array holding data of any type. such as integers, strings, Python ...",
+      "url": "",
+      "best_position": 7,
+      "avg_position": 7.0,
+      "frequency": 1,
+      "pages_seen": [
+        6
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/python/python_lambda.asp",
+      "rank": 7,
+      "title": "Python Lambda",
+      "description": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, ...",
+      "url": "",
+      "best_position": 7,
+      "avg_position": 7.0,
+      "frequency": 1,
+      "pages_seen": [
+        16
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=xt-K6OcUsI4",
+      "rank": 7,
+      "title": "Python Basics Full Course | Learn Python Basics In 6 Hours ...",
+      "description": "This Python Basics Full Course video will cover all the basics of Python required to get started with Python. This Python Tutorial for ...",
+      "url": "",
+      "best_position": 7,
+      "avg_position": 7.0,
+      "frequency": 1,
+      "pages_seen": [
+        20
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=na2OR-a0jHo",
+      "rank": 9,
+      "title": "How To Learn Python Basics | Python Tutorial For Beginners ...",
+      "description": "How To Learn Python Basics | Python Tutorial For Beginners | H2kinfosys | Free Demo. 376 views · 4 years ago #PythonCourse #LearnPython ...",
+      "url": "",
+      "best_position": 7,
+      "avg_position": 8.0,
+      "frequency": 2,
+      "pages_seen": [
+        19,
+        20
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/python/python_inheritance.asp",
+      "rank": 7,
+      "title": "Python Inheritance",
+      "description": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, ...",
+      "url": "",
+      "best_position": 7,
+      "avg_position": 7.0,
+      "frequency": 1,
+      "pages_seen": [
+        17
+      ]
+    },
+    {
+      "link": "https://pll.harvard.edu/course/cs50s-introduction-programming-python",
+      "rank": 7,
+      "title": "CS50's Introduction to Programming with Python",
+      "description": "An introduction to programming using Python, a popular language for general-purpose programming, data science, web programming, and more.",
+      "url": "",
+      "best_position": 7,
+      "avg_position": 7.0,
+      "frequency": 1,
+      "pages_seen": [
+        5
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/python/python_getstarted.asp",
+      "rank": 7,
+      "title": "Python Getting Started",
+      "description": "This editor will be used in the entire tutorial to demonstrate the different aspects of Python. Python Install. However, if you want to run Python on your ...",
+      "url": "",
+      "best_position": 7,
+      "avg_position": 7.0,
+      "frequency": 1,
+      "pages_seen": [
+        9
+      ]
+    },
+    {
+      "link": "https://docs.python.org/3/tutorial/errors.html",
+      "rank": 7,
+      "title": "8. Errors and Exceptions — Python 3.14.2 documentation",
+      "description": "The Python Tutorial »; 8. Errors and Exceptions. |; Theme. Auto, Light, Dark. |. 8. Errors and Exceptions¶. Until now error messages haven't been more than ...",
+      "url": "",
+      "best_position": 7,
+      "avg_position": 7.0,
+      "frequency": 1,
+      "pages_seen": [
+        11
+      ]
+    },
+    {
+      "link": "https://www.learnpython.org/",
+      "rank": 7,
+      "title": "Learn Python - Free Interactive Python Tutorial",
+      "description": "Get started learning Python with DataCamp's free Intro to Python tutorial. Learn Data Science by completing interactive coding challenges and watching videos.",
+      "url": "",
+      "best_position": 7,
+      "avg_position": 7.0,
+      "frequency": 1,
+      "pages_seen": [
+        1
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=4F2m91eKmts",
+      "rank": 7,
+      "title": "Python Tutorial for Beginners - Full Course in 11 Hours [2020]",
+      "description": "Join my FREE JavaScript Course: https://www.cleverprogrammer.com The tool I'm using to write my Python code online... https://repl.it.",
+      "url": "",
+      "best_position": 7,
+      "avg_position": 7.0,
+      "frequency": 1,
+      "pages_seen": [
+        12
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=Q9lBJXWUb18",
+      "rank": 7,
+      "title": "Introduction to Programming & Python | Python Tutorial",
+      "description": "Python for Beginners (Full Course) | #100DaysOfCode Programming Tutorial in Hindi.",
+      "url": "",
+      "best_position": 7,
+      "avg_position": 7.0,
+      "frequency": 1,
+      "pages_seen": [
+        21
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=LaDGEbXgkUk",
+      "rank": 7,
+      "title": "Python Full Course | Python Tutorial Free | Python for ...",
+      "description": "Welcome to this comprehensive Python Full course designed for aspiring developers! In just 10 hours, you will gain a solid foundation in ...",
+      "url": "",
+      "best_position": 7,
+      "avg_position": 7.0,
+      "frequency": 1,
+      "pages_seen": [
+        14
+      ]
+    },
+    {
+      "link": "https://stackify.com/learn-python-tutorials/",
+      "rank": 8,
+      "title": "Python: Tutorials for Beginners, Intermediate, and Advanced",
+      "description": "In this article, we will introduce you to some of the best Python tutorials. These tutorials are suited for both beginners and advanced programmers.",
+      "url": "",
+      "best_position": 8,
+      "avg_position": 8.0,
+      "frequency": 1,
+      "pages_seen": [
+        3
+      ]
+    },
+    {
+      "link": "https://code.visualstudio.com/docs/python/python-quick-start",
+      "rank": 8,
+      "title": "Quick Start Guide for Python in VS Code",
+      "description": "Next steps. To learn how to build web apps with popular Python web frameworks, see the following tutorials: Use Django in Visual Studio Code · Use ...",
+      "url": "",
+      "best_position": 8,
+      "avg_position": 8.0,
+      "frequency": 1,
+      "pages_seen": [
+        7
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB",
+      "rank": 8,
+      "title": "Python Tutorials",
+      "description": "Python for Beginners – Full Course [Programming Tutorial]. freeCodeCamp.org and Beau Carnes · 5:55:47 · Intermediate Python Programming Course. freeCodeCamp.org.",
+      "url": "",
+      "best_position": 8,
+      "avg_position": 8.0,
+      "frequency": 1,
+      "pages_seen": [
+        8
+      ]
+    },
+    {
+      "link": "https://learnxinyminutes.com/python/",
+      "rank": 8,
+      "title": "Learn Python in Y Minutes",
+      "description": "Single line comments start with a number symbol. \"\"\" Multiline strings can be written using three \"s, and are often used as documentation.",
+      "url": "",
+      "best_position": 8,
+      "avg_position": 8.0,
+      "frequency": 1,
+      "pages_seen": [
+        4
+      ]
+    },
+    {
+      "link": "https://learn.microsoft.com/en-us/shows/intro-to-python-development/",
+      "rank": 8,
+      "title": "Python for Beginners",
+      "description": "At the end of the course, you'll be able to go and learn on your own, for example with docs, tutorials, or books. Show more. Filter. Programming languages.See more",
+      "url": "",
+      "best_position": 8,
+      "avg_position": 8.0,
+      "frequency": 1,
+      "pages_seen": [
+        2
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=jNWn73y9EPA",
+      "rank": 8,
+      "title": "Python Tutorial for Beginners - Full Course in 12 Hours ...",
+      "description": "Python is one of top 5 programming languages today. If you want to pursue a career, this language is a must for you.This course has been ...",
+      "url": "",
+      "best_position": 8,
+      "avg_position": 8.0,
+      "frequency": 2,
+      "pages_seen": [
+        15,
+        16
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=mJEpimi_tFo",
+      "rank": 8,
+      "title": "Python Tutorial for Beginners - Full Course in 3 Hours",
+      "description": "Hi Welcome to Amigoscode. Intuit QuickBooks and I joined forces to help you kick start your career in tech. In this python tutorial for ...",
+      "url": "",
+      "best_position": 8,
+      "avg_position": 8.0,
+      "frequency": 1,
+      "pages_seen": [
+        13
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=CWXQ031jDe8",
+      "rank": 9,
+      "title": "Python Tutorials for Beginners Part 3 | Python Programming ...",
+      "description": "Python Tutorials for Beginners Part 3 | Python Programming Tutorial | Python Basics ...",
+      "url": "",
+      "best_position": 8,
+      "avg_position": 8.5,
+      "frequency": 2,
+      "pages_seen": [
+        18,
+        19
+      ]
+    },
+    {
+      "link": "https://www.learnpython.org/en/Hello,_World!",
+      "rank": 8,
+      "title": "Hello, World! - Learn Python - Free Interactive Python Tutorial",
+      "description": "Get started learning Python with DataCamp's free Intro to Python tutorial. Learn Data Science by completing interactive coding challenges and watching videos.",
+      "url": "",
+      "best_position": 8,
+      "avg_position": 8.0,
+      "frequency": 1,
+      "pages_seen": [
+        6
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=ddGTXBhaGWA",
+      "rank": 8,
+      "title": "How to install Python 3.13.5 on Windows 11",
+      "description": "In this video, learn to download and install Python 3.13.5 on Windows 11. We will also run a sample Python code. Python Tutorial (English): ...",
+      "url": "",
+      "best_position": 8,
+      "avg_position": 8.0,
+      "frequency": 1,
+      "pages_seen": [
+        20
+      ]
+    },
+    {
+      "link": "https://jupyter.org/",
+      "rank": 8,
+      "title": "Project Jupyter | Home",
+      "description": "Jupyter supports over 40 programming languages, including Python, R, Julia, and Scala. icon to represent sharing a notebook. Share notebooks. Notebooks can be ...",
+      "url": "",
+      "best_position": 8,
+      "avg_position": 8.0,
+      "frequency": 1,
+      "pages_seen": [
+        5
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=qwAFL1597eM",
+      "rank": 8,
+      "title": "Python Tutorial for Beginners (with mini-projects)",
+      "description": "Learn Python programming in this complete course for beginners. This tutorial features mini-projects throughout so you can put what you ...",
+      "url": "",
+      "best_position": 8,
+      "avg_position": 8.0,
+      "frequency": 1,
+      "pages_seen": [
+        9
+      ]
+    },
+    {
+      "link": "https://realpython.com/",
+      "rank": 8,
+      "title": "Real Python: Python Tutorials",
+      "description": "Learn Python online: Python tutorials for developers of all skill levels, Python books and courses, Python news, code examples, articles, and more.",
+      "url": "",
+      "best_position": 8,
+      "avg_position": 8.0,
+      "frequency": 1,
+      "pages_seen": [
+        1
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=RJWlUyfOy1o",
+      "rank": 8,
+      "title": "Python Tutorial | Python tutorial for beginners | Learn Python ...",
+      "description": "Python Tutorial | Python tutorial for beginners | Learn Python in 8 Hours | Great Learning. 97K views · 4 years ago ...more. Great Learning.",
+      "url": "",
+      "best_position": 8,
+      "avg_position": 8.0,
+      "frequency": 1,
+      "pages_seen": [
+        14
+      ]
+    },
+    {
+      "link": "https://developers.google.com/edu/python/introduction",
+      "rank": 9,
+      "title": "Python Introduction | Python Education",
+      "description": "Welcome to Google's Python online tutorial. It is based on the introductory Python course offered internally. As mentioned on the setup page, this material ...",
+      "url": "",
+      "best_position": 9,
+      "avg_position": 9.0,
+      "frequency": 1,
+      "pages_seen": [
+        7
+      ]
+    },
+    {
+      "link": "https://docs.python.org/3/tutorial/appetite.html",
+      "rank": 9,
+      "title": "1. Whetting Your Appetite",
+      "description": "Since the best way to learn a language is to use it, the tutorial invites you to play with the Python interpreter as you read. In the next chapter, the ...",
+      "url": "",
+      "best_position": 9,
+      "avg_position": 9.0,
+      "frequency": 1,
+      "pages_seen": [
+        8
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=ix9cRaBkVe0",
+      "rank": 9,
+      "title": "Python Full Course for free",
+      "description": "In this video I'm going to teach you everything you need to know to start coding with Python.",
+      "url": "",
+      "best_position": 9,
+      "avg_position": 9.0,
+      "frequency": 1,
+      "pages_seen": [
+        4
+      ]
+    },
+    {
+      "link": "https://code.visualstudio.com/docs/python/python-tutorial",
+      "rank": 9,
+      "title": "Getting Started with Python in VS Code",
+      "description": "In this tutorial, you will learn how to use Python 3 in Visual Studio Code to create, run, and debug a Python \"Roll a dice\" application, work with virtual ...See more",
+      "url": "",
+      "best_position": 9,
+      "avg_position": 9.0,
+      "frequency": 1,
+      "pages_seen": [
+        2
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/python/python_dictionaries.asp",
+      "rank": 9,
+      "title": "Python Dictionaries",
+      "description": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, ...",
+      "url": "",
+      "best_position": 9,
+      "avg_position": 9.0,
+      "frequency": 1,
+      "pages_seen": [
+        15
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/python/python_syllabus.asp",
+      "rank": 9,
+      "title": "Python Syllabus (Curriculum)",
+      "description": "The W3Schools Python Tutorial is comprehensive and beginner-friendly. It will give you a fundamental knowledge of Python.",
+      "url": "",
+      "best_position": 9,
+      "avg_position": 9.0,
+      "frequency": 1,
+      "pages_seen": [
+        13
+      ]
+    },
+    {
+      "link": "https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_to_Python_Programming_-_WEB.pdf",
+      "rank": 9,
+      "title": "Introduction to Python Programming",
+      "description": "This book utilizes the OpenStax. Python Code Runner. The code runner is developed by Wiley and is All Rights Reserved. Trademarks. The OpenStax name, OpenStax ...",
+      "url": "",
+      "best_position": 9,
+      "avg_position": 9.0,
+      "frequency": 1,
+      "pages_seen": [
+        6
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/playlist?list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0",
+      "rank": 9,
+      "title": "Python 3 Programming Tutorials for Beginners",
+      "description": "Python tutorial for absolute beginners. For those who have never done coding in their life this is THE place to start.",
+      "url": "",
+      "best_position": 9,
+      "avg_position": 9.0,
+      "frequency": 1,
+      "pages_seen": [
+        10
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=4XfMcbDAylA",
+      "rank": 9,
+      "title": "Python Tutorial For Beginners | Learn Python Programming In ...",
+      "description": "... Python Basics Full Course video will cover all the basics of Python required to get started with Python. This Python Tutorial for beginners is",
+      "url": "",
+      "best_position": 9,
+      "avg_position": 9.0,
+      "frequency": 1,
+      "pages_seen": [
+        19
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=bTMPwUgLZf0",
+      "rank": 9,
+      "title": "Build an AI Agent From Scratch in Python - Tutorial for Beginners",
+      "description": "Build an AI Agent From Scratch in Python - Tutorial for Beginners · Comments. 421. The llm he mentions isn't free. It requires payment at this ...",
+      "url": "",
+      "best_position": 9,
+      "avg_position": 9.0,
+      "frequency": 1,
+      "pages_seen": [
+        17
+      ]
+    },
+    {
+      "link": "https://colab.research.google.com/",
+      "rank": 9,
+      "title": "Welcome To Colab - Colab",
+      "description": "Colab, or \"Colaboratory\", allows you to write and execute Python in your browser, with Whether you're a student, a data scientist or an AI researcher, Colab ...",
+      "url": "",
+      "best_position": 9,
+      "avg_position": 9.0,
+      "frequency": 1,
+      "pages_seen": [
+        5
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/playlist?list=PLEA1FEF17E1E5C0DA",
+      "rank": 9,
+      "title": "Python Programming Tutorials",
+      "description": "Share your videos with friends, family, and the world.",
+      "url": "",
+      "best_position": 9,
+      "avg_position": 9.0,
+      "frequency": 1,
+      "pages_seen": [
+        9
+      ]
+    },
+    {
+      "link": "https://docs.python.org/3/tutorial/interpreter.html",
+      "rank": 9,
+      "title": "2. Using the Python Interpreter",
+      "description": "The Python Tutorial »; 2. Using the Python Interpreter. |; Theme. Auto, Light, Dark. |. 2. Using the Python Interpreter¶. 2.1. Invoking the Interpreter¶. The ...",
+      "url": "",
+      "best_position": 9,
+      "avg_position": 9.0,
+      "frequency": 1,
+      "pages_seen": [
+        11
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/",
+      "rank": 9,
+      "title": "W3Schools Online Web Tutorials",
+      "description": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, ...",
+      "url": "",
+      "best_position": 9,
+      "avg_position": 9.0,
+      "frequency": 1,
+      "pages_seen": [
+        14
+      ]
+    },
+    {
+      "link": "https://python.land/python-tutorial",
+      "rank": 10,
+      "title": "Welcome To The Python Tutorial",
+      "description": "Welcome To The Python Tutorial ... Learn Python with our free tutorial, suitable for beginners. It contains carefully crafted, logically ordered ...",
+      "url": "",
+      "best_position": 10,
+      "avg_position": 10.0,
+      "frequency": 1,
+      "pages_seen": [
+        3
+      ]
+    },
+    {
+      "link": "https://www.geeksforgeeks.org/data-science/data-science-with-python-tutorial/",
+      "rank": 10,
+      "title": "Data Science with Python Tutorial",
+      "description": "Data Analysis · What is Data Processing? · Exploratory Data Analysis in Python · Univariate and Multivariate Analysis · Calculating Correlation ...",
+      "url": "",
+      "best_position": 10,
+      "avg_position": 10.0,
+      "frequency": 1,
+      "pages_seen": [
+        7
+      ]
+    },
+    {
+      "link": "https://realpython.com/python3-object-oriented-programming/",
+      "rank": 10,
+      "title": "Object-Oriented Programming (OOP) in Python",
+      "description": "In this tutorial, you'll learn all about object-oriented programming (OOP) in Python. You'll learn the basics of the OOP paradigm and cover ...",
+      "url": "",
+      "best_position": 10,
+      "avg_position": 10.0,
+      "frequency": 1,
+      "pages_seen": [
+        8
+      ]
+    },
+    {
+      "link": "https://www.dataquest.io/blog/learn-python-the-right-way/",
+      "rank": 10,
+      "title": "How to Learn Python in 2026 | A Step-By-Step Guide",
+      "description": "If you like learning at your own pace, our Python tutorials are perfect. They cover everything from writing functions and loops to using ...",
+      "url": "",
+      "best_position": 10,
+      "avg_position": 10.0,
+      "frequency": 1,
+      "pages_seen": [
+        4
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=vLqTf2b6GZw",
+      "rank": 10,
+      "title": "Python Tutorial for Beginners | Learn Python in 1.5 Hours",
+      "description": "Python Tutorial for Beginners | Learn Python in 1.5 Hours · Comments. 8K. Please continue python series from beginner to advanced level . 1:22: ...",
+      "url": "",
+      "best_position": 10,
+      "avg_position": 10.0,
+      "frequency": 1,
+      "pages_seen": [
+        13
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=fKO32pt6CpE",
+      "rank": 10,
+      "title": "Introduction To The Ultimate Python 3 Tutorial Series For ...",
+      "description": "Introduction To The Ultimate Python 3 Tutorial Series For Beginners · Comments. 6. Add a comment... 11:10 · Go to channel · Python Tutorial: ...",
+      "url": "",
+      "best_position": 10,
+      "avg_position": 10.0,
+      "frequency": 1,
+      "pages_seen": [
+        18
+      ]
+    },
+    {
+      "link": "https://www.freecodecamp.org/news/the-best-way-to-learn-python-python-programming-tutorial-for-beginners/",
+      "rank": 10,
+      "title": "The Best Way to Learn Python",
+      "description": "I have curated a list of 16 Python tutorials for beginners. This list will include free and paid resources. Here is the complete list.",
+      "url": "",
+      "best_position": 10,
+      "avg_position": 10.0,
+      "frequency": 1,
+      "pages_seen": [
+        6
+      ]
+    },
+    {
+      "link": "https://www.tpointtech.com/python-tutorial",
+      "rank": 10,
+      "title": "Python Tutorial | Learn Python Programming Language",
+      "description": "Python is a high-level dynamic programming language. It is interpreted and focuses on code readability. There are fewer steps compared to Java ...",
+      "url": "",
+      "best_position": 10,
+      "avg_position": 10.0,
+      "frequency": 1,
+      "pages_seen": [
+        10
+      ]
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=ywSUipTI4lc",
+      "rank": 10,
+      "title": "Learn Python - Full Fundamental Course for Beginners _ ...",
+      "description": "Learn Python - Full Fundamental Course for Beginners _ Python Tutorial for Beginners. 1.8K views · Streamed 3 years ago ...more. Durga ...",
+      "url": "",
+      "best_position": 10,
+      "avg_position": 10.0,
+      "frequency": 1,
+      "pages_seen": [
+        19
+      ]
+    },
+    {
+      "link": "https://www.w3schools.com/python/python_oop.asp",
+      "rank": 10,
+      "title": "Python OOP (Object-Oriented Programming)",
+      "description": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, ...",
+      "url": "",
+      "best_position": 10,
+      "avg_position": 10.0,
+      "frequency": 1,
+      "pages_seen": [
+        11
+      ]
+    }
+  ],
+  "people_also_ask": [],
+  "navigation": [
+    {
+      "title": "AI Mode",
+      "href": "https://www.google.com/search?q=python+tutorial&sca_esv=015d815b1709dabd&hl=en&udm=50&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZud1z6kQpMfoEdCJxnpm_3YlUqOpj4OTU_HmqxOd8LCaN7mmZJ9GiO1Y6qpUtvCeh3w6IFygtA-fsVD_r-avM1ZX9hrUus7QHR1ZbroYw-9tyBcHdqR6yXZtwWJfEMHuAFRdo7quED4T-PQxKdHFaqB4eOLfsvyrpOoXIp-nVuYEo_yfceLhK-OnwgyleFXXUIDrkEw&aep=1&ntc=1&sa=X&ved=2ahUKEwijxqvn8a2RAxUukmoFHQzFLgk4FBDYnw56BAgREAQ"
+    },
+    {
+      "title": "Videos",
+      "href": "https://www.google.com/search?sca_esv=015d815b1709dabd&hl=en&udm=7&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZud1z6kQpMfoEdCJxnpm_3YlUqOpj4OTU_HmqxOd8LCaN7mmZJ9GiO1Y6qpUtvCeh3w6IFygtA-fsVD_r-avM1ZX9hrUus7QHR1ZbroYw-9tyBcHdqR6yXZtwWJfEMHuAFRdo7quED4T-PQxKdHFaqB4eOLfsvyrpOoXIp-nVuYEo_yfceLhK-OnwgyleFXXUIDrkEw&q=python+tutorial&sa=X&ved=2ahUKEwijxqvn8a2RAxUukmoFHQzFLgk4FBC0qAt6BAgXEAE"
+    },
+    {
+      "title": "Short videos",
+      "href": "https://www.google.com/search?sca_esv=015d815b1709dabd&hl=en&udm=39&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZud1z6kQpMfoEdCJxnpm_3YlUqOpj4OTU_HmqxOd8LCaN7mmZJ9GiO1Y6qpUtvCeh3w6IFygtA-fsVD_r-avM1ZX9hrUus7QHR1ZbroYw-9tyBcHdqR6yXZtwWJfEMHuAFRdo7quED4T-PQxKdHFaqB4eOLfsvyrpOoXIp-nVuYEo_yfceLhK-OnwgyleFXXUIDrkEw&q=python+tutorial&sa=X&ved=2ahUKEwijxqvn8a2RAxUukmoFHQzFLgk4FBCzqAt6BAgWEAE"
+    },
+    {
+      "title": "Images",
+      "href": "https://www.google.com/search?sca_esv=015d815b1709dabd&hl=en&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZud1z6kQpMfoEdCJxnpm_3YlUqOpj4OTU_HmqxOd8LCaN7mmZJ9GiO1Y6qpUtvCeh3w6IFygtA-fsVD_r-avM1ZX9hrUus7QHR1ZbroYw-9tyBcHdqR6yXZtwWJfEMHuAFRdo7quED4T-PQxKdHFaqB4eOLfsvyrpOoXIp-nVuYEo_yfceLhK-OnwgyleFXXUIDrkEw&q=python+tutorial&sa=X&ved=2ahUKEwijxqvn8a2RAxUukmoFHQzFLgk4FBC0qAt6BAgVEAE"
+    },
+    {
+      "title": "Shopping",
+      "href": "https://www.google.com/search?sca_esv=015d815b1709dabd&hl=en&udm=28&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZud1z6kQpMfoEdCJxnpm_3YlUqOpj4OTU_HmqxOd8LCaN7mmZJ9GiO1Y6qpUtvCeh3w6IFygtA-fsVD_r-avM1ZX9hrUus7QHR1ZbroYw-9tyBcHdqR6yXZtwWJfEMHuAFRdo7quED4T-PQxKdHFaqB4eOLfsvyrpOoXIp-nVuYEo_yfceLhK-OnwgyleFXXUIDrkEw&q=python+tutorial&ved=1t:220175&ictx=111"
+    },
+    {
+      "title": "News",
+      "href": "https://www.google.com/search?sca_esv=015d815b1709dabd&hl=en&q=python+tutorial&tbm=nws&source=lnms&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZud1z6kQpMfoEdCJxnpm_3YlUqOpj4OTU_HmqxOd8LCaN7mmZJ9GiO1Y6qpUtvCeh3w6IFygtA-fsVD_r-avM1ZX9hrUus7QHR1ZbroYw-9tyBcHdqR6yXZtwWJfEMHuAFRdo7quED4T-PQxKdHFaqB4eOLfsvyrpOoXIp-nVuYEo_yfceLhK-OnwgyleFXXUIDrkEw&sa=X&ved=2ahUKEwijxqvn8a2RAxUukmoFHQzFLgk4FBDSlAl6BAgTEAE"
+    }
+  ],
+  "language": null,
+  "country": null,
+  "page_html": null,
+  "aio_text": null
+}
