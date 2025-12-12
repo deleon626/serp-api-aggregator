@@ -22,9 +22,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `python src/run_parallel_queries.py --file queries.txt`: Load queries from file
 
 ### Test commands
-- `python tests/test_bright_data_serp.py --all`: Run full test suite
-- `python tests/test_concurrency.py`: Test concurrent request performance
-- `python tests/test_max_pages.py`: Test pagination depth limits
+- `python tests/test_serp.py --all`: Run full test suite
+- `python tests/test_serp.py --concurrency`: Test concurrent request performance
+- `python tests/test_serp.py --pagination`: Test pagination depth limits
+
+Deprecated tests (direct Bright Data API calls) are archived in `tests/archive/`
 
 ## Code style
 
@@ -150,7 +152,7 @@ Client → query_processor.py → Bright Data SERP API → deduplicator.py → A
 ### Adding new search parameters
 1. Update `BASE_PARAMS` in `src/config.py`
 2. Modify `make_serp_request()` in `bright_data_client.py` to include new params
-3. Test with `tests/test_bright_data_serp.py`
+3. Test with `tests/test_serp.py`
 
 ### Adding new result fields
 1. Modify `fetch_all_pages()` in `src/bright_data_client.py` to extract new fields
@@ -158,8 +160,8 @@ Client → query_processor.py → Bright Data SERP API → deduplicator.py → A
 3. Ensure deduplicator handles new fields in cross-query merge
 
 ### Testing new features
-1. Design test cases in `tests/BRIGHT_DATA_SERP_TEST_DESIGN.md`
-2. Implement in `tests/test_*.py` using async test pattern
+1. Review archived test designs in `tests/archive/BRIGHT_DATA_SERP_TEST_DESIGN.md`
+2. Implement in `tests/test_serp.py` using async test pattern
 3. Update findings in `tests/GOOGLE_SERP_FINDINGS.md`
 
 ## Project notes
@@ -179,5 +181,5 @@ Client → query_processor.py → Bright Data SERP API → deduplicator.py → A
 
 - `PRD.md`: Product requirements for future REST API service
 - `tests/GOOGLE_SERP_FINDINGS.md`: Comprehensive test results and performance metrics
-- `tests/BRIGHT_DATA_SERP_TEST_DESIGN.md`: Test case catalog
+- `tests/archive/BRIGHT_DATA_SERP_TEST_DESIGN.md`: Test case catalog (archived)
 - `output_example.json`: Reference for Bright Data API response structure
