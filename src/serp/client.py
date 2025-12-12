@@ -123,6 +123,7 @@ class SerpAggregator:
         country: str | None = None,
         language: str | None = None,
         use_cache: bool = True,
+        raw_collector: list[dict] | None = None,
     ) -> SearchResult:
         """
         Execute a single search query.
@@ -188,6 +189,7 @@ class SerpAggregator:
             concurrency=concurrency,
             progress=self._progress,
             rate_limiter=self._rate_limiter,
+            raw_collector=raw_collector,
         )
 
         # Cache result
@@ -206,6 +208,7 @@ class SerpAggregator:
         country: str | None = None,
         language: str | None = None,
         use_cache: bool = True,
+        raw_collector: list[dict] | None = None,
     ) -> BatchResult:
         """
         Execute multiple search queries sequentially.
@@ -243,6 +246,7 @@ class SerpAggregator:
                 country=country,
                 language=language,
                 use_cache=use_cache,
+                raw_collector=raw_collector,
             )
 
             elapsed = time.time() - query_start
@@ -279,6 +283,7 @@ class SerpAggregator:
         language: str | None = None,
         use_cache: bool = True,
         max_parallel_queries: int = 5,
+        raw_collector: list[dict] | None = None,
     ) -> BatchResult:
         """
         Execute multiple search queries in parallel.
@@ -310,6 +315,7 @@ class SerpAggregator:
                     country=country,
                     language=language,
                     use_cache=use_cache,
+                    raw_collector=raw_collector,
                 )
                 elapsed = time.time() - query_start
                 return query, result, elapsed

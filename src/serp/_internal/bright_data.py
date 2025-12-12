@@ -204,6 +204,7 @@ async def fetch_all_pages(
     concurrency: int | None = None,
     progress: ProgressReporter | None = None,
     rate_limiter: RateLimiter | None = None,
+    raw_collector: list[dict] | None = None,
 ) -> SearchResult:
     """
     Fetch all pages for a query concurrently with deduplication.
@@ -219,6 +220,7 @@ async def fetch_all_pages(
         concurrency: Concurrent requests (default from settings)
         progress: Progress reporter
         rate_limiter: Rate limiter
+        raw_collector: Optional list to collect raw API responses
 
     Returns:
         SearchResult with deduplicated organic results and metadata
@@ -263,6 +265,10 @@ async def fetch_all_pages(
             consecutive_empty += 1
 
         elif response:
+            # Collect raw response if collector provided
+            if raw_collector is not None:
+                raw_collector.append(response)
+
             # Capture first response metadata
             if first_response is None:
                 first_response = response

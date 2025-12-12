@@ -21,6 +21,7 @@ from .. import (
     NullProgress,
 )
 from ..exceptions import SerpError
+from .debug import save_debug_json, save_debug_csv, save_debug_raw
 
 app = typer.Typer(
     name="serp",
@@ -49,6 +50,9 @@ def search(
     no_cache: bool = typer.Option(False, "--no-cache", help="Disable cache"),
     quiet: bool = typer.Option(False, "--quiet", "-q", help="Suppress progress output"),
     verbose: bool = typer.Option(False, "--verbose", "-v", help="Verbose progress output"),
+    debug_json: bool = typer.Option(False, "--debug-json", help="Save JSON to ./debug/"),
+    debug_csv: bool = typer.Option(False, "--debug-csv", help="Save CSV to ./debug/"),
+    debug_raw: bool = typer.Option(False, "--debug-raw", help="Save raw API responses to ./debug/"),
 ):
     """
     Execute a single search query.
@@ -60,6 +64,7 @@ def search(
     """
     async def run():
         progress = get_progress(quiet, verbose)
+        raw_collector: list[dict] = [] if debug_raw else []
 
         async with SerpAggregator(progress=progress) as client:
             result = await client.search(
@@ -69,11 +74,23 @@ def search(
                 country=country,
                 language=language,
                 use_cache=not no_cache,
+                raw_collector=raw_collector if debug_raw else None,
             )
-            return result
+            return result, raw_collector
 
     try:
-        result = asyncio.run(run())
+        result, raw_collector = asyncio.run(run())
+
+        # Save debug outputs
+        if debug_json:
+            debug_path = save_debug_json(result, query)
+            console.print(f"[dim]Debug JSON: {debug_path}[/dim]")
+        if debug_csv:
+            debug_path = save_debug_csv(result, query)
+            console.print(f"[dim]Debug CSV: {debug_path}[/dim]")
+        if debug_raw and raw_collector:
+            debug_path = save_debug_raw(raw_collector, query)
+            console.print(f"[dim]Debug raw: {debug_path}[/dim]")
 
         # Format output
         if output_format == "json":
@@ -130,6 +147,9 @@ def batch(
     no_cache: bool = typer.Option(False, "--no-cache"),
     quiet: bool = typer.Option(False, "--quiet", "-q"),
     verbose: bool = typer.Option(False, "--verbose", "-v"),
+    debug_json: bool = typer.Option(False, "--debug-json", help="Save JSON to ./debug/"),
+    debug_csv: bool = typer.Option(False, "--debug-csv", help="Save CSV to ./debug/"),
+    debug_raw: bool = typer.Option(False, "--debug-raw", help="Save raw API responses to ./debug/"),
 ):
     """
     Execute batch search queries.
@@ -156,29 +176,49 @@ def batch(
 
     async def run():
         progress = get_progress(quiet, verbose)
+        raw_collector: list[dict] = [] if debug_raw else []
 
         async with SerpAggregator(progress=progress) as client:
             if parallel:
-                return await client.search_parallel(
+                result = await client.search_parallel(
                     query_list,
                     max_pages=max_pages,
                     concurrency=concurrency,
                     country=country,
                     language=language,
                     use_cache=not no_cache,
+                    raw_collector=raw_collector if debug_raw else None,
                 )
             else:
-                return await client.search_batch(
+                result = await client.search_batch(
                     query_list,
                     max_pages=max_pages,
                     concurrency=concurrency,
                     country=country,
                     language=language,
                     use_cache=not no_cache,
+                    raw_collector=raw_collector if debug_raw else None,
                 )
+            return result, raw_collector
 
     try:
-        result = asyncio.run(run())
+        result, raw_collector = asyncio.run(run())
+
+        # Save debug outputs for each query
+        if debug_json or debug_csv:
+            for query, search_result in result.results.items():
+                if debug_json:
+                    debug_path = save_debug_json(search_result, query)
+                    console.print(f"[dim]Debug JSON ({query}): {debug_path}[/dim]")
+                if debug_csv:
+                    debug_path = save_debug_csv(search_result, query)
+                    console.print(f"[dim]Debug CSV ({query}): {debug_path}[/dim]")
+        if debug_raw and raw_collector:
+            # For batch, save all raw responses together
+            # Use first query as filename base
+            first_query = query_list[0] if query_list else "batch"
+            debug_path = save_debug_raw(raw_collector, first_query)
+            console.print(f"[dim]Debug raw (all queries): {debug_path}[/dim]")
 
         # Format output
         if output_format == "json":
